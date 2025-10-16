@@ -50,3 +50,11 @@
 
 # Embedded web-server pid file
 /.web-server-pid
+
+#NF
+.idea/
+composer.lock
+/*.php
+/notes.md
+
+/.*
