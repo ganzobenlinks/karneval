@@ -1,4 +1,5 @@
 ### ganzobenlinks/karneval
+todo: clean up this AI generated readme :)
 
 A tiny PHP library to calculate the Cologne (Kölsche) Karneval dates for a given year, with simple helpers to format or serialize the results.
 
@@ -80,11 +81,31 @@ Example structure of `toArray()` (dates depend on the year):
       "description": "Feiern in Kneipen und Sitzungen; kein offizieller Feiertag.",
       "date": "dd.mm.yyyy"
     },
-    "samstag": { "name": "Karnevalssamstag", "description": "Veedelsumzüge und Kneipenkarneval.", "date": "dd.mm.yyyy" },
-    "sonntag": { "name": "Karnevalssonntag", "description": "Viele Veedelszöch, z. B. „Schull- un Veedelszöch“ in Köln.", "date": "dd.mm.yyyy" },
-    "rosenmontag": { "name": "Rosenmontag", "description": "Großer Rosenmontagszug – Höhepunkt des Straßenkarnevals.", "date": "dd.mm.yyyy" },
-    "veilchendienstag": { "name": "Veilchendienstag", "description": "Letzter Karnevalstag; abends oft Nubbelverbrennung.", "date": "dd.mm.yyyy" },
-    "aschermittwoch": { "name": "Aschermittwoch", "description": "Fastelovend es vorbei – Fastenzeit beginnt.", "date": "dd.mm.yyyy" }
+    "samstag": {
+      "name": "Karnevalssamstag",
+      "description": "Veedelsumzüge und Kneipenkarneval.",
+      "date": "dd.mm.yyyy"
+    },
+    "sonntag": {
+      "name": "Karnevalssonntag",
+      "description": "Viele Veedelszöch, z. B. „Schull- un Veedelszöch“ in Köln.",
+      "date": "dd.mm.yyyy"
+    },
+    "rosenmontag": {
+      "name": "Rosenmontag",
+      "description": "Großer Rosenmontagszug – Höhepunkt des Straßenkarnevals.",
+      "date": "dd.mm.yyyy"
+    },
+    "veilchendienstag": {
+      "name": "Veilchendienstag",
+      "description": "Letzter Karnevalstag; abends oft Nubbelverbrennung.",
+      "date": "dd.mm.yyyy"
+    },
+    "aschermittwoch": {
+      "name": "Aschermittwoch",
+      "description": "Fastelovend es vorbei – Fastenzeit beginnt.",
+      "date": "dd.mm.yyyy"
+    }
   }
 }
 ```
